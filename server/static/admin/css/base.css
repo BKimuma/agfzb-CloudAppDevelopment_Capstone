@@ -733,12 +733,13 @@ table#change-history tbody th {
 
 #container {
     position: relative;
-    width: 100%;
+    width: 98%;
     min-width: 980px;
     padding: 0;
     display: flex;
     flex-direction: column;
     height: 100%;
+    background-color: silver;
 }
 
 #container > div {
@@ -775,9 +776,11 @@ table#change-history tbody th {
     margin-right: -300px;
 }
 
-#footer {
+.footer {
     clear: both;
-    padding: 10px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
 }
 
 /* COLUMN TYPES */
