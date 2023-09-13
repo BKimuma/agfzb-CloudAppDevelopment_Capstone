@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dealership Review</title>
+    {% load static %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -14,11 +16,51 @@
 </head>
 
     <body>
-    <!-- Remove this line the first time you edit this file -->
-     This is the index page of your Django app!
-    <!--Add a nav bar here -->
-
-    <!--Add a dealer table here -->
+    
+     <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar header">
+                WELCOME TO THE BESTCAR DEALERSHIP OFFICIAL WEBSITE
+        </div>
+     </nav>
+     
+     <table class="table">
+        <tr>
+            <th>Car</th>
+            <th>Style</th>
+            <th>Range</th>
+            <th>Transmission</th>
+            <th>Price range (Kshs)<th>
+        </tr>
+        <tr>
+            <th>Tata</th>
+            <th>Compact SUV</th>
+            <th>312 Km/Full Charge</th>
+            <th>Automatic</th>
+            <th>13.99 M</th>
+        </tr>
+        <tr>
+            <th>Hyundai Grand i10 Nios</th>
+            <th>Compact Hatchback</th>
+            <th>20.2 - 26.2 Km/l</th>
+            <th>AMT, Maual</th>
+            <th>5.3 M</th>
+        </tr>
+        <tr>
+            <th>Maruti Suzuki Alto 800</th>
+            <th>Entry Hatchback</th>
+            <th>24.7 - 31.39 Km/l</th>
+            <th>Maual</th>
+            <th>3.39 M</th>
+        </tr> 
+        <tr>
+            <th>Tata Punch</th>
+            <th>Compact SUV</th>
+            <th>N/A</th>
+            <th>AMT, Maual</th>
+            <th>5.83 M</th>
+        </tr>      
+     </table>
 
     </body>
 
